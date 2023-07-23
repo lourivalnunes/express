@@ -1,9 +1,3 @@
-//login
-//criar conta
-//verificar email
-//recuperar senha
-//alterar senha
-
 const express = require('express')
 const { validate, ValidationError, Joi } = require('express-validation')
 const { Pool } = require('pg')
